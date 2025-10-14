@@ -1,0 +1,4 @@
+.env
+diatombase_cache
+worms_cache
+.vscode
