@@ -1,7 +1,25 @@
+# Python runtime files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+env/
+venv/
+
+# Secrets and credentials
 .env
-diatombase_cache
-worms_cache
-gbif_cache
-pmc_cache
-.vscode
-*.csv
+config.py
+
+# Database file
+algae.db
+
+# Archived files
+archive/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
